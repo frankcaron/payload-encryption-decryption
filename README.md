@@ -47,7 +47,7 @@ as the tools to crete these pairs. The client and the  server will have to go th
 
 Create a keystore using java keytool. The command to do this is
 
-    keytool -genkey -alias ApiHubUATcertalias -keyalg RSA -keystore ApiHubUATkeystorejks  -keysize 2048
+    keytool -genkey -alias ApiHubUATcertalias -keyalg RSA -keystore ApiHubUATkeystorejks -keysize 2048
 
 Change the alias to reflect a name of choice, this will prompt you for a password , enter a password of choice
 
